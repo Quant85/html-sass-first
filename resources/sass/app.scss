@@ -1,0 +1,27 @@
+$primary: aliceblue;
+$titleColor: #242424ab;
+
+body{
+  background-color: $primary;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+
+    h1{
+      color: $titleColor;
+      font-size: 2rem;
+      font-weight: 400;
+    }
+
+    h2{
+      font-size: 1.5rem;
+    }
+
+    p{
+      width: fit-content;
+      background-color: rgb(189, 191, 194);
+      padding: 20px 40px;
+      border-radius: 20px;
+    }
+}

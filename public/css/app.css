@@ -1,0 +1,23 @@
+body {
+  background-color: aliceblue;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+body h1 {
+  color: #242424ab;
+  font-size: 2rem;
+  font-weight: 400;
+}
+body h2 {
+  font-size: 1.5rem;
+}
+body p {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #bdbfc2;
+  padding: 20px 40px;
+  border-radius: 20px;
+}
